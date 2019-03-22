@@ -1,7 +1,7 @@
 # Macros para compilacao
 LEX = flex
 CC = gcc
-CFLAGS = -Wextra -ll
+CFLAGS = -Wextra -lfl
 DIR = src
 FILENAME = $(DIR)/main.l
 TARGET = ./main
